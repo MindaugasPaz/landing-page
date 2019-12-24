@@ -1,9 +1,9 @@
 # Udacity Second Project - Landing Page Project with JavaScript
 
-## Short description about this project
+## Table of content
 
 * [Description](#description)
-* [Funtionality](#developed_functionality)
+* [Funtionality](#functionality)
 
 ## Description
 
@@ -13,6 +13,6 @@ All functionality of this project is located in `js/app.js` file in js folder. I
 
 Functionality which was needed to develop was provided in Udacity Classroom website.
 
-## Developed functionality
+## Functionality
 
 Main objectives in this project was to build the navigation menu dynamically and add functionality to distinguish the section in view. 
