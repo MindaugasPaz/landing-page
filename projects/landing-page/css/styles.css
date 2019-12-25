@@ -60,13 +60,21 @@ section {
     min-height: 80vh;
 }
 
+/* For navbar not to hide Section title and h1 element*/
+@media only screen and (max-width: 500px){
+    section {
+        padding-top: 50px;
+    }
+    h1 {
+        padding-top: 20px;
+    }
+}
 
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
 .navbar__menu ul {
     padding-left: 0;
-    margin: 10px;
     text-align: left;
 }
 
@@ -108,7 +116,6 @@ section {
 .page__footer p{
     color: #fff;
 }
-
 
 /* ---- Theme Rules ---- */
 /* Landing Container Styles */

@@ -62,10 +62,11 @@ function isElementInViewport (currentSection) {
 };
 
 function handler() {
+    const navBarLinks = document.getElementsByClassName('navbar__link');
     for(let i = 0; i < sections.length; i++) {
         const currentSection = currentSectionArray[i].getBoundingClientRect();
         if (isElementInViewport(currentSection)) {
-              sections[i].classList.add('your-active-class');
+              (sections[i].classList.add('your-active-class'));
          } else {
                sections[i].classList.remove('your-active-class');
          }
